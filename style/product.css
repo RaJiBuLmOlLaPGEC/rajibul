@@ -1,0 +1,53 @@
+#fun{
+    width: 70vw;
+    margin: auto;
+}
+#fun>h1{
+    text-align: center;
+}
+#para{
+    display: flex;
+    justify-content: space-around;
+}
+.indiv>p,.indiv>h5{
+    margin: 0;
+    text-align: center;
+
+}
+.indiv{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.indiv>img{
+    margin: auto;
+    width: fit-content;
+}
+#data{
+    display: none;
+    position: absolute;
+    padding: 10px;
+    height: 100vh;
+    width: 300px;
+    margin: auto;
+    background-color: white;
+    border: 2px solid grey;
+    z-index: 2;
+    right: 0px;
+    top: 0px;
+}
+#data>div>button{
+    background-color:pink;
+    border-radius: 10px;
+    width: 50%;
+    padding: 10px;
+    margin-left:10px;
+}
+#data>span{
+    float: right;
+    padding: 5px;
+    background-color: palevioletred;
+    border: 2px solid red;
+    margin: 20px;
+    border-radius: 5px;
+}

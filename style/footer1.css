@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+}
+footer{
+    font-family: system-ui;
+}
+footer>div{
+    background-color: #000000;
+    color: white;
+}
+footer>a:first-child{
+    background-color: rgba(128, 128, 128, 0.232);
+    text-align: center;
+    /* color: black; */
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-size: 21px;
+    font-weight: 600;
+}
+#findimgandloc{
+    display: flex;
+    justify-content: space-around;
+}
+.setloc{
+   
+    display: flex;
+    padding: 10px;
+    margin: 25px 0px;
+}
+.setloc>img{
+    margin-right:10px ;
+}
+#bottombar{
+    /* margin-top: 14px; */
+    border-bottom: 2px solid rgb(222, 219, 219);
+}
+#mid{
+    /* border: 1px solid green; */
+
+    display: flex;
+    padding: 10px  30px;
+    justify-content: space-around;
+}
+#mid>div>a{
+    display: flex;
+    margin-top:7px;
+    text-decoration: none;
+    flex-direction: column;
+    color: white;
+}
+#mid>div{
+    margin: 5px 15px;
+}
+.a11{
+    display: flex;
+    margin: 20px 0px;
+    align-items: center;
+    padding: 4px;
+    font-weight: bold;
+
+}
+.a11>img{
+    margin-right: 7px;
+}
+.midlast{
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.a12>label{
+    font-size: 18px;
+    font-weight: bold;
+   
+}
+
+.in1>input{
+    border-radius: 10px;
+    padding: 12px;
+    margin: 14px 20px 0px 0px;
+    background-color: white;
+}
+.in1>button{
+    border-radius: 20px;
+  
+    font-size: 15px;
+    height: 35px;
+    align-items: baseline;
+    
+
+}
+.bottombar{
+    border-bottom: 2px solid rgb(243, 235, 235);
+    margin-bottom: 0;
+}
+#last{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 35px;
+}
+#last>div>p{
+    margin: 0px;
+}
+#last>div>p>a{
+    text-decoration: none;
+    margin: 0px 8px;
+    color: white;
+}
+#icon_01>a>img{
+    width: 35px;
+    margin: 0px 10px;
+
+}

@@ -1,0 +1,126 @@
+
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: system-ui;
+    }
+    body{
+        overflow: scroll;
+    }
+    .nav-bar{
+        height:200px;
+        width:100%;
+        /* border:1px solid red; */
+    }
+    .header{
+        height:60px;
+        width:100%;
+        border:1px solid rgb(216, 27, 121);
+        background-color: rgb(216, 27, 121);
+    }
+    a{
+        text-decoration: none;
+    }
+    .header>a{
+        display:flex;
+        justify-content: space-evenly;
+    }
+    .header>a>div{
+        height:100%;
+        width:45%;
+    }
+    .headerimg>img{
+        height: 59px;
+        width: 100%;
+    }
+    .nav{
+        height: 140px;
+        width:100%;
+        border:1px solid black;
+    }
+    .nav-middle{
+        height:80px;
+        width:100%;
+        border:1px solid white;
+    }
+    .upper-nav{
+        height:100%;
+        width:80%;
+        border:1px solid white;
+        margin:auto;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .logo{
+        height:100%;
+        width:10%;
+        border:1px solid white;
+    }
+    .logo>a>img{
+        height: 100%;
+        width: 100%;
+    }
+    .search{
+        height:100%;
+        width:40%;
+        border:1px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .search>input{
+        border-radius: 20px;
+        background-color: whitesmoke;
+        height: 40px;
+        border:none;
+        width: 400px;
+    }
+    .right-nav{
+        height:100%;
+        width:50%;
+        border:1px solid white;
+        display:flex;
+        justify-content: space-around;
+    }
+    .signupdiv{
+        height:100%;
+        width:60%;
+        border:1px solid white;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .lovechatbag{
+        height:100%;
+        width:20%;
+        border:1px solid white;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .section{
+        height:60px;
+        width:100%;
+        background-color: black;
+        color:white;
+    }
+    .section>ul{
+        list-style: none;
+    }
+    .section li{
+        display:inline-block;
+    }
+    .section a{
+        text-decoration: none;
+        color:white;
+        width:120px;
+        display: block;
+    }
+    #skinhappens{
+        margin:auto;
+        height:fit-content;
+        width: fit-content;
+    }
